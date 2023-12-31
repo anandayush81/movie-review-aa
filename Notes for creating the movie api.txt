@@ -1,0 +1,39 @@
+movies api password : WeCyglApTDmLfUxP
+
+MongoDB URL:mongodb+srv://anandayush81:<password>@cluster0.g5b45lb.mongodb.net/
+
+
+C:\Users\ayushan\AppData\Local/ngrok/ngrok.yml
+
+
+
+
+
+Access to XMLHttpRequest at 'https://9c96-103-106-239-104.ap.ngrok.io/api/v1/movies' from origin 'http://localhost:3000' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+
+
+
+@felipebomfim1998
+@felipebomfim1998
+6 months ago
+Credit: Mel J
+"So the front end instructor missed a huge part of the setup. Ngrok is a service that you need to setup yourself and your baseURL will be different from his. I googled it, set up an account, added ngrok extension to VS code and used the URL it generated instead. That was when my CORS error went away. I didn't need the @CrossOrigin notation either."
+2
+Reply
+
+
+2 replies
+@gauravkanojia6533
+@gauravkanojia6533
+5 months ago
+can you write a detail explanation what you did
+Reply
+
+@felipebomfim1998
+@felipebomfim1998
+5 months ago (edited)
+Ngrok is a software to create a tunnel from a local port to a remote server. So you have to search for a tutorial of how to do it and use the url that ngrok will give you
+
+
+Edit: use it as the base url
+Reply
